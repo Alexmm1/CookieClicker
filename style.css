@@ -1,0 +1,120 @@
+body {
+    background-color: #FCE9D7;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h5 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Column layout */
+  .column-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+    background-color: #FFF;
+  }
+  
+  /* Header styles */
+  .column-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #E59866;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin-bottom: 1rem;
+  }
+  
+  /* Cookie counter styles */
+  #counter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #E59866;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  }
+  
+  .cookie-counter {
+    font-size: 1.2rem;
+    color: #E59866;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin-bottom: 0.5rem;
+  }
+  
+  .cps-counter {
+    font-size: 0.8rem;
+    color: #E59866;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin-bottom: 1rem;
+  }
+  
+  #cookie_icon {
+    font-size: 5rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #cookie_icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Producer styles */
+  .producer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+    background-color: #FFF;
+  }
+  
+  .producer-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #E59866;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin-bottom: 0.5rem;
+  }
+  
+  .price-number {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2C3E50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cps-number {
+    font-size: 0.8rem;
+    color: #2C3E50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .quantity-number {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2C3E50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .button {
+    background-color: #E59866
+  }
